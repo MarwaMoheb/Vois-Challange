@@ -30,7 +30,7 @@ public class searchTest extends TestBase{
 		//provide a log test with name "search"
 		ExtentTest test = extent.createTest("search");
 
-		//search with word in SearchWord excel file
+		//search with word "vodafone"
 		googlePageOBJ.Search("Vodafone");
 		//take screenshot in the report to each step passed
 		test.info("search with vodafone", MediaEntityBuilder.createScreenCaptureFromPath(getScreenshootPath(System.getProperty("user.dir")+"/screenShoots/vodafone.png")).build());
