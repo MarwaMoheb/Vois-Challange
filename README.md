@@ -20,4 +20,4 @@ Steps:
 4.1- change the browser value with "firefox" to open in firefox.
 4.2 change the browser value with "edge" to open in microsoft edge.
 4-3 right click on the testng.xml file and runt it as testng.
-5- the program will execute the test cases and represt screenshots in a html report.
+5- the program will execute the test cases and represent screenshots in a html report.
