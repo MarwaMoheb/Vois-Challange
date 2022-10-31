@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-30T23:47:47 EET" name="Default suite" finished-at="2022-10-30T23:48:48 EET" duration-ms="60319">
+    <groups>
+    </groups>
+    <test started-at="2022-10-30T23:47:47 EET" name="Default test" finished-at="2022-10-30T23:48:48 EET" duration-ms="60319">
+      <class name="tests.searchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.searchTest@9f116cc]" started-at="2022-10-30T23:47:33 EET" name="setup" finished-at="2022-10-30T23:47:34 EET" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.searchTest@9f116cc]" started-at="2022-10-30T23:47:34 EET" name="startDriver" finished-at="2022-10-30T23:47:47 EET" depends-on-methods="tests.ExtentReport.setup" duration-ms="13366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="intializeObjets()[pri:0, instance:tests.searchTest@9f116cc]" started-at="2022-10-30T23:47:47 EET" name="intializeObjets" finished-at="2022-10-30T23:47:47 EET" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeObjets -->
+        <test-method signature="navigteToGoogle(java.lang.String)[pri:0, instance:tests.searchTest@9f116cc]" started-at="2022-10-30T23:47:52 EET" name="navigteToGoogle" data-provider="Data" finished-at="2022-10-30T23:48:05 EET" duration-ms="12375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ https://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigteToGoogle -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.searchTest@9f116cc]" started-at="2022-10-30T23:48:05 EET" name="recordFailure" finished-at="2022-10-30T23:48:05 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigteToGoogle status=SUCCESS method=TestBase.navigteToGoogle(java.lang.String)[pri:0, instance:tests.searchTest@9f116cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method signature="GoogleSearch()[pri:1, instance:tests.searchTest@9f116cc]" started-at="2022-10-30T23:48:05 EET" name="GoogleSearch" finished-at="2022-10-30T23:48:48 EET" duration-ms="42852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearch -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.searchTest@9f116cc]" started-at="2022-10-30T23:48:48 EET" name="recordFailure" finished-at="2022-10-30T23:48:48 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoogleSearch status=SUCCESS method=searchTest.GoogleSearch()[pri:1, instance:tests.searchTest@9f116cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.searchTest@9f116cc]" started-at="2022-10-30T23:48:48 EET" name="closeDriver" finished-at="2022-10-30T23:48:49 EET" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.searchTest@9f116cc]" started-at="2022-10-30T23:48:49 EET" name="teardown" finished-at="2022-10-30T23:49:00 EET" depends-on-methods="tests.TestBase.closeDriver" duration-ms="10865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.searchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
