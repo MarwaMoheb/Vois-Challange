@@ -47,14 +47,14 @@ public class TestBase extends ExtentReport{
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));}
 
-		if(browser.equals("firefox")) {
+		else if(browser.equals("firefox")) {
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/drivers/geckodriver.exe");
 			driver=new FirefoxDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));}
 
 
-		if(browser.equals("edge")) {
+		else if(browser.equals("edge")) {
 			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")+"/drivers/msedgedriver.exe");
 			driver=new EdgeDriver();
 			driver.manage().window().maximize();
